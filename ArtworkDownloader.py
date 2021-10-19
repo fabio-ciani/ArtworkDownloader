@@ -37,7 +37,7 @@ artworkUrl = artworkUrl.replace("100x100bb", "600x600-999")
 pathIndex = artworkUrl.find("image")
 artworkPath = artworkUrl[pathIndex:]
 
-# Make the final URLs.
+# Create final URLs.
 highResolutionUrl = "http://is5.mzstatic.com/" + artworkPath
 print(highResolutionUrl)
 
